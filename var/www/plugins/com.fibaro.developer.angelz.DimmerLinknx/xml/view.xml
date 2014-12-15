@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <page name="buttons" height="250">
+    <horizontalLayout weight="1">
+      <verticalLayout weight="1"> 
+          <button name="Key_on" caption="Allumer" class="fleft com_fibaro_default_ButtonGreen"  weight="1"/>
+          <spacer weight="0.5"/>
+          <button name="Key_off" caption="Eteindre" class="fleft com_fibaro_default_ButtonRed" weight="1"/> 
+        </verticalLayout>
+        <verticalLayout weight="1"> 
+          <image name="icone" caption="" weight="1" source=""/>
+        </verticalLayout>
+    </horizontalLayout>
+    <spacer weight="0.2"/>
+    <horizontalLayout weight="0.5">
+      <slider name="slide_dimmer" caption="Dimmer" weight="1" min="0" max="255" step="5" onchange="true" value="0"/>
+    </horizontalLayout>
+    <horizontalLayout weight="0.2">
+      <label name="debug" caption="" weight="0.2"/>
+    </horizontalLayout>
+   
+  </page>
+  <main/>
+</root>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<device type="com.fibaro.developer.angelz.DimmerLinknx" baseType="com.fibaro.multilevelSwitch">
+  <interfaces/>
+  <properties>
+    <property name="ip_nodejs" type="string"/>
+    <property name="port_nodejs" type="string"/>
+    <property name="id_linknx_cmd" type="string"/>
+    <property name="id_linknx_status" type="string"/>
+    <property name="configured" type="bool"/>
+    <property name="deviceIcon" type="string">
+        <default>15</default>
+    </property>
+  </properties>
+  <actions>
+    <action name="receive_data" argc="3"/>
+  </actions>
+  <events/>
+</device>
